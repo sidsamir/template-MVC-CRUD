@@ -2,7 +2,7 @@
 
 ## La config
 
-On installe composer avec la commande (composer intall), il faut au préalable avoir configuré un fichier .json ( on peut très bien installer chaque dépendence avec une commande composer comme par exemple : ```composer require symfony/var-dumper```
+On installe composer avec la commande (composer install), il faut au préalable avoir configuré un fichier composer.json (on peut très bien installer chaque dépendance avec une commande composer comme : ```composer require symfony/var-dumper```
 
 ```
 {
@@ -66,4 +66,19 @@ on va retrouver de base nos assets (js, css, images, fonds ...) on va aussi retr
 
 ### Le dossier routes
 
-- Dans le dossier route on vien ajouter toutes nos routes et ont inclus ça dans le FrontController voir l'exemple avec la page home. 
+- Dans le dossier route on vient ajouter toutes nos routes et ont inclus ça dans le FrontController voir l'exemple avec la page home. 
+
+
+# CRUD 
+
+**Create, Read, Update, et Delete**
+
+- Create (Création) : Permet d'ajouter de nouvelles données à la base de données.
+
+- Read (Lecture) : Permet de lire, afficher et consulter les données existantes dans la base de données.
+
+- Update (Mise à jour) : Permet de modifier les données existantes dans la base de données.
+
+- Delete (Suppression) : Permet de supprimer des données de la base de données.
+
+**Chacun de nos model doit contenir ces fonctions**
